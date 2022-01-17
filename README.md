@@ -5,7 +5,7 @@
 - Engineered missing data and one-hot encoded categorial values
 - Investigated attribute weights and disparities within Birth Country and Home Language features (Recipe & Diversity)
 - Generated a statistical description across 12 different subpopulations (Ingredients)
-- Determined the robustness of prediction methodology on data (Stability)
+- Determined the robustness of the prediction methodology on data (Stability)
 - Measured the group fairness through disparate impact and statistical parity (Fairness)
 
 ## Code and Resources Used
