@@ -84,7 +84,7 @@ The visual interpretability tool consisted of 5 sections, with investigation on 
 - **Recipe**: attribute weights in dataset that correspond to importance in prediction.
 - **Ingredients**: statistical description of successful grants across 10 Birth Country and 2 Home Language subpopulations.
 - **Diversity**: disparities between diversity of applicants predicted a successful grant compared to entire pool of applicants, represented as pie charts for each subpopulation.
-- **Stability**: explains if prediction methodology is robust on dataset for each feature based on slope of distribution. Stable if the absolute value of the feature distribution slope is greater than 0.25.
+- **Stability**: explains if prediction methodology is robust on dataset for each feature based on slope of distribution. If the absolute value of the feature distribution slope is greater than 0.25, it is stable to slight changes in the data.
 - **Fairness**: quantified whether outcomes exhibited disparate impact and/or statistical parity between groups with respect to the sensitive attributes.
 
 ## Interpretability Tool Analysis
@@ -94,11 +94,11 @@ The tool provided concise, transparent, and easily interpretable findings:
     - Birth Country: 0.93 (strong correlation to grant status)
     - Home Language: 0.0 (no correlation to grant status, surprisingly)
 - **Ingredients**:
-    - Birth Country: 885 max from Australia, 5 min from New Zealand, 27 median
-    - Home Language: 103 max English speaking, 26 min other speaking, 64.5 median
+    - Birth Country: 885 maximum Australian born, 5 minimum New Zealand born, 27 median across subpopulations
+    - Home Language: 103 maximum English speaking, 26 minimum non-English speaking, 64.5 median across subpopulations
 - **Diversity**:
     - Birth Country: slight preference for Australian born investigators to give grants
-    - Home Language: no noticeable difference between granted and overall pool
+    - Home Language: no noticeable difference between granted applicants and overall pool
 - **Stability**:
     - Birth Country: unstable; slope = -0.037
     - Home Language: unstable; slope = 0.006
