@@ -17,10 +17,10 @@
 
 ## Data Collection
 
-The train data consisted of 8700+ University of Melbourne grant applications from late 2005 to 2008, whereas
+The train data consisted of 8700+ University of Melbourne grant applications from late 2005 to 2008, and
 the test data consisted of 2100+ grant applications from 2009 to mid 2010.
 
-With each application, I got the following about the applicant:
+With each application, I gathered the following about information the applicant:
 - Applicant ID
 - Submission Date
 - RFCD Code (Field of study classification)
@@ -43,7 +43,7 @@ I also got the following about the faculty investigator reviewing the applicatio
 
 And got information about the grant sponsor:
 - Sponsor Code (ID of sponsor)
-- Grant Category code (categorization of sponsor)
+- Grant Category code (Categorization of sponsor)
 
 The grant status was provided for the training set as a binary variable (successful, unsuccessful).
 
@@ -82,9 +82,9 @@ Below are a few highlights:
 The visual interpretability tool consisted of 5 sections, with investigation on the Birth Country and Home Language features:
 
 - **Recipe**: attribute weights in dataset that correspond to importance in prediction.
-- **Ingredients**: statistics of successful grants across 10 Birth Country and 2 Home Language subpopulations.
+- **Ingredients**: statistical description of successful grants across 10 Birth Country and 2 Home Language subpopulations.
 - **Diversity**: disparities between diversity of applicants predicted a successful grant compared to entire pool of applicants, represented as pie charts for each subpopulation.
-- **Stability**: explains if prediction methodology is robust on dataset for each feature based on slope of distribution. If the absolute value of the feature distribution slope is greater than 0.25, it is stable.
+- **Stability**: explains if prediction methodology is robust on dataset for each feature based on slope of distribution. Stable if the absolute value of the feature distribution slope is greater than 0.25.
 - **Fairness**: quantified whether outcomes exhibited disparate impact and/or statistical parity between groups with respect to the sensitive attributes.
 
 ## Interpretability Tool Analysis
