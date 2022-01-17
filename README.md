@@ -1,5 +1,5 @@
 
-# Data Science University of Melbourne Grant Predictions Interpretability Tool: Project Overview
+# Data Science University Grant Predictions Interpretability Tool: Project Overview
 
 - Built a visual interpretability tool for a university grant prediction model developed in a Kaggle competition **(Nutritional Label)**
 - Engineered missing data and one-hot encoded categorial values
