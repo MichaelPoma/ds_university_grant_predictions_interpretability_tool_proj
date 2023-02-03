@@ -8,6 +8,10 @@
 - Determined the robustness of the prediction methodology on data (Stability)
 - Measured the group fairness through disparate impact and statistical parity (Fairness)
 
+## Interpretability Tool
+<p align="center"><img alt="Nutritional Label" src="nutritional_label.png" width="90%"></p>
+
+
 ## Code and Resources Used
 
 **Python Version:** 3.8.8\
@@ -105,6 +109,3 @@ The tool provided concise, transparent, and easily interpretable findings:
 - **Fairness**:
     - Birth Country: fair disparate impact and statistical parity (favorable and fair outcomes for New Zealand/Australian born)
     - Home Language: unfair disparate impact and statistical parity (unfavorable and unfair outcomes for non-English speakers)
-
-The interpretability tool is below:
-<p align="center"><img alt="Nutritional Label" src="nutritional_label.png" width="100%"></p>
