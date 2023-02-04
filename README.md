@@ -26,15 +26,15 @@ The train data consisted of 8700+ University of Melbourne grant applications fro
 the test data consisted of 2100+ grant applications from 2009 to mid 2010.
 
 With each application, I gathered the following about information the applicant:
-- Applicant ID
-- Submission Date
-- RFCD Code (Field of study classification)
-- RFCD Percentage (If several RFCD codes relevant to applicant)
-- SEO Code (Socioeconomic classification)
-- SEO Percentage (If several SEO codes relevant to applicant)
+- `Applicant ID`
+- `Submission Date`
+- `RFCD Code` (Field of study classification)
+- `RFCD Percentage` (If several RFCD codes relevant to applicant)
+- `SEO Code` (Socioeconomic classification)
+- `SEO Percentage` (If several SEO codes relevant to applicant)
 
 I also got the following about the faculty investigator reviewing the application:
-- `Role
+- `Role`
 - `Faculty Number`
 - `Department Number`
 - `Year of Birth`
