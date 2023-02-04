@@ -34,28 +34,28 @@ With each application, I gathered the following about information the applicant:
 - SEO Percentage (If several SEO codes relevant to applicant)
 
 I also got the following about the faculty investigator reviewing the application:
-- Role
-- Faculty Number
-- Department Number
-- Year of Birth
-- Country of Birth
-- Home Language
-- Level of Seniority
-- Number of Years Worked at University of Melbourne
-- Number of Academic Journals
-- Number of Grants Approved
-- Number of Grants Denied
+- `Role
+- `Faculty Number`
+- `Department Number`
+- `Year of Birth`
+- `Country of Birth`
+- `Home Language`
+- `Level of Seniority`
+- `Number of Years Worked at University of Melbourne`
+- `Number of Academic Journals`
+- `Number of Grants Approved`
+- `Number of Grants Denied`
 
 And got information about the grant sponsor:
-- Sponsor Code (ID of sponsor)
-- Grant Category code (Categorization of sponsor)
-- Contract Value Band (Value of grant)
+- `Sponsor Code` (ID of sponsor)
+- `Grant Category code` (Categorization of sponsor)
+- `Contract Value Band` (Value of grant)
 
 The grant status was provided for the training set as a binary variable (successful, unsuccessful).
 
 I modeled the interpretability tool around two features across each of their subpopulations:
-- Birth Country: AU, APAC, GB, WE, NA, EE, MEA, Amer, NZ, SA
-- Home Language: English, Other
+- `Birth Country`: AU, APAC, GB, WE, NA, EE, MEA, Amer, NZ, SA
+- `Home Language`: English, Other
 ## Data Cleaning
 
 After loading the data and reviewing the developed model, the data was in good quality for predictions.
@@ -65,9 +65,9 @@ However, I made a few changes to the data in order to build the interpretability
 - Scaled newly cleaned data
 
 I also made the following columns:
-- Grant Status (Prediction of grant status)
-- Successful Grant (If grant status was successful or not)
-- Native Birth Country (If born in New Zealand or Australia)
+- `Grant Status` (Prediction of grant status)
+- `Successful Grant` (If grant status was successful or not)
+- `Native Birth Country` (If born in New Zealand or Australia)
 
 The data was now ready to construct the tool.
 ## EDA
