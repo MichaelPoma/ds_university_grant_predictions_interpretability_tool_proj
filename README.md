@@ -2,7 +2,7 @@
 # Data Science University Grant Predictions Interpretability Tool: Project Overview
 
 - Built a visual interpretability tool for a university grant prediction model developed in a Kaggle competition **(Nutritional Label)**
-- Engineered missing data and one-hot encoded categorial values
+- Engineered missing data and one-hot encoded categorical values
 - Investigated attribute weights and disparities within Birth Country and Home Language features (Recipe & Diversity)
 - Generated a statistical description across 12 different subpopulations (Ingredients)
 - Determined the robustness of the prediction methodology on data (Stability)
